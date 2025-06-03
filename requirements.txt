@@ -1,0 +1,7 @@
+
+---
+
+### 📦 `requirements.txt`
+
+No external dependencies required for the basic version:
+
