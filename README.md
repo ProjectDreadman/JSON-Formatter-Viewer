@@ -1,25 +1,24 @@
-# JSON Formatter & Viewer
+# ⏱️ Terminal Pomodoro Timer
 
-A simple web tool that helps you view, format, and validate JSON data easily. Paste your JSON, get it beautified instantly!
+A simple command-line Pomodoro timer built with Python. Great for improving productivity with focused work sessions.
 
-## 🚀 Features
+## 🍅 Features
 
-- Beautify and indent JSON
-- Syntax error detection
-- Collapsible view for nested objects (coming soon!)
-- Copy formatted JSON to clipboard
+- 25/5 Pomodoro cycles (25 min work / 5 min break)
+- Audible alert (optional)
+- Clear terminal interface
+- Customizable durations
 
-## 🛠️ Tech Stack
+## 🛠 Technologies
 
-- React
-- Vite
-- CSS (or Tailwind if you prefer)
-- JavaScript
+- Python 3
+- `time`, `os`, `argparse` (built-in libraries)
 
-## 🧑‍💻 Getting Started
+## ▶️ Usage
+
+### Install
 
 ```bash
-git clone https://github.com/yourusername/json-formatter-viewer.git
-cd json-formatter-viewer
-npm install
-npm run dev
+git clone https://github.com/yourusername/pomodoro-timer.git
+cd pomodoro-timer
+python pomodoro/timer.py
